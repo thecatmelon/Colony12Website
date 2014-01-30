@@ -252,6 +252,9 @@
 		  text-align: center;
 		  width: 100%;
 		}
+		  ul.icons a {
+		    border: none;
+		  }
 		
 			ul.icons li:before
 			{
