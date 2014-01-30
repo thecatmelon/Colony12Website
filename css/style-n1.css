@@ -198,7 +198,7 @@
 		{
 			left: 1em;
 		}
-
+F
 		.dropotron.level-0.right:before
 		{
 			right: 1em;
@@ -210,7 +210,7 @@
 
 	.wrapper
 	{
-		padding: 6em 0 6em 0;
+		padding: 2em 0 6em 0;
 	}
 
 	#header-wrapper
@@ -301,7 +301,7 @@
 
 	#main
 	{
-		padding-bottom: 4em;
+		padding-bottom: 0em;
 	}
 
 /*********************************************************************************/
@@ -328,8 +328,8 @@
 	
 		#sidebar section
 		{
-			border-top: solid 1px #d2d7dc;
-			margin-top: 3em;
+			/*border-top: solid 1px #d2d7dc;*/
+			/*margin-top: 1em;*/
 			padding-top: 3em;
 		}
 
