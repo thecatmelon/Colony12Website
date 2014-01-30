@@ -164,19 +164,20 @@
 			transition: opacity 0.25s ease-in-out;
 			outline: 0;
 			border: 0;
+			opacity: 0.75;
 		}
 		
 			.image img
 			{
 				display: block;
-				width: 100%;
+				/*max-width: 100%;*/
 			}
 
 			.image.full
 			{
 				display: block;
-				width: 100%;
-				margin: 0 0 1em 0;
+				/*width: 100%;*/
+				/*margin: 0 0 1em 0;*/
 			}
 			
 			.image.left
@@ -196,10 +197,15 @@
 					margin: 0 auto;
 					width: auto;
 				}
+				
+			a.image {
+			  border:  0;
+			  outline: 0;
+			}
 
 			a.image:hover
 			{
-				opacity: 0.85;
+				opacity: 1.0;
 			}
 
 	/* Lists */
