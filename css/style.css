@@ -51,6 +51,13 @@
 		-ms-transition: color 0.25s ease-in-out, border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 		transition: color 0.25s ease-in-out, border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 	}
+
+		a.trailer
+		{
+			text-decoration: none !important;
+			border-bottom: none !important;
+		}
+
 	
 		a:hover
 		{
@@ -486,6 +493,28 @@
 	}
 
 /*********************************************************************************/
+/* Navbar                                                                        */
+/*********************************************************************************/
+
+	nav ul li 
+	{
+		font-size: 0.8em;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+	}
+
+	#nav > ul > li.active > span, #nav > ul > li.active > a {
+		/* REMOVE THE OUTLINE */
+		border-top: none !important;
+		border-left: none !important;
+		border-right: none !important;
+		/* REMOVE THAT UGLY ROUNDED CORNER */
+		border-radius: 0px !important;
+		/* GET RID OF THAT UGLY BACKGROUND COLOUR */
+		background-color: inherit !important;
+	}
+
+/*********************************************************************************/
 /* Wrappers                                                                      */
 /*********************************************************************************/
 
@@ -523,9 +552,10 @@
 
 	#header-wrapper
 	{
+		/* padding: 4em 0 0.8em 0 !important; */
 		position: relative;
 		background: #5598b6;
-		background-image: url('../images/index.png');
+		background-image: url('../images/colony12_skyline.jpg');
 		background-size: cover !important;
 		/*
 		background-image: url('images/header.svg'), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
@@ -597,14 +627,15 @@
 /* Header                                                                        */
 /*********************************************************************************/
 
+	@media (min-width: 570px) {
+
 	#logo
 	{
+		background-image: url('../images/colony12_web_logo_2.png');
+		background-repeat: no-repeat;
 	}
-	
-		#logo a
-		{
-			color: #fff;
-		}
+
+	}
 
 /*********************************************************************************/
 /* Hero                                                                          */
@@ -621,9 +652,22 @@
 		#hero h2
 		{
 			color: #fff;
-      font-style: italic;
-      margin-bottom: 100px;
-    }
+      		margin-bottom: 100px;
+    	}
+
+    	#hero h2.bold
+    	{
+    		font-weight: bold;
+    		margin-bottom: 0px;
+    		padding-bottom: 20px;
+    	}
+
+    	#hero p.description
+    	{
+    		padding: 0 5em 0 5em;
+    		font-size: 1em;
+    		font-weight: lighter;
+    	}
 
 		#hero header > span
 		{
@@ -632,9 +676,11 @@
 
 		#hero .button
 		{
-			background: #fff;
-			border-color: rgba(255,255,255,0);
-			color: #5598b6;
+			border-color: rgba(255,255,255,0.75);
+			background-color: rgba(255,255,255,0.05);
+			color: #fff;
+			text-decoration: underline none;
+
 		}
 
 			#hero .button:hover
@@ -642,6 +688,13 @@
 				border-color: rgba(255,255,255,0.75);
 				background-color: rgba(255,255,255,0.15);
 				color: #fff;
+
+				/* FADE IT IN SO IT LOOKS ALL NICE AND PRETTY WHEN YOU HOVER */
+				-webkit-transition: all 0.4s ease;
+				-moz-transition: all 0.4s ease;
+				-ms-transition: all 0.4s ease;
+				-o-transition: all 0.4s ease;
+				transition: all 0.4s ease;
 			}
 
 		#hero a
