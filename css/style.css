@@ -430,12 +430,21 @@
 			border: solid 1px #c2c7cc;
 			border-radius: 0.35em;
 			padding: 0.8em 2em 0.8em 2em;
+
 		}
 
 			.button:hover
 			{
-				color: #5598b6;
-				border-color: rgba(85,152,182,0.5);
+				border-color: rgba(255,255,255,0.75);
+				background-color: rgba(255,255,255,0.15);
+				color: #fff;
+
+				/* FADE IT IN SO IT LOOKS ALL NICE AND PRETTY WHEN YOU HOVER */
+				-webkit-transition: all 0.4s ease;
+				-moz-transition: all 0.4s ease;
+				-ms-transition: all 0.4s ease;
+				-o-transition: all 0.4s ease;
+				transition: all 0.4s ease;
 			}
 			
 			.button:active
@@ -512,6 +521,11 @@
 		border-radius: 0px !important;
 		/* GET RID OF THAT UGLY BACKGROUND COLOUR */
 		background-color: inherit !important;
+	}
+
+	.bold
+	{
+		font-weight: bold;
 	}
 
 /*********************************************************************************/
