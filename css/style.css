@@ -475,6 +475,18 @@
 			{
 			}
 
+	.name {
+		font-weight: bold;
+	}
+
+	.description
+	{
+		margin-top: 0.6em;
+		font-size: 0.8em;
+		line-height: 1.2em;
+		color: #fafafa;
+	}
+
 /*********************************************************************************/
 /* Section/Article Types                                                         */
 /*********************************************************************************/
@@ -595,7 +607,7 @@
 	#promo-wrapper
 	{
 		position: relative;
-		background: url('../images/promo.jpg') center center;
+		background: url('../images/city_blurred.jpg') center center;
 		background-size: cover;
 		color: #fff;
 		text-align: center;
@@ -779,4 +791,10 @@
 		color: #a2a7ac;
 		padding-top: 0 !important;
 		margin-top: 0 !important;
+	}
+
+	#copyright > ul > li > a
+	{
+		border-bottom: none !important;
+		text-decoration: none !important;
 	}
