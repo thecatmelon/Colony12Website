@@ -10,14 +10,18 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
+	<link rel="stylesheet" href="css/lightbox.css" media="screen"/>
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600" rel="stylesheet" type="text/css" />
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	
     <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
     <script src="js/jquery.min.js"></script>
+	<script src="js/lightbox-2.6.min.js"></script>
     <script src="js/jquery.dropotron.min.js"></script>
     <script src="js/skel.min.js"></script>
     <script src="js/skel-panels.min.js"></script>
     <script src="js/init.js"></script>
+
     <noscript>
     	<link rel="stylesheet" href="css/skel-noscript.css" />
     	<link rel="stylesheet" href="css/style.css" />
@@ -56,90 +60,37 @@
 
 		<!-- Main Wrapper -->
 			<div class="wrapper" id="team">
-
-				<div class="container">
-					<div class="row" id="main">
-						<div class="12u">
+				<!-- Content -->
+					<article id="content">
+						<header>
+							<h2>Pre-production</h2>
+						</header>
+					</article>
 					
-							<!-- Content -->
-								<article id="content">
-									<header>
-										<h2>The Team</h2>
-									</header>
-								</article>
+					<section id="examples" class="section examples-section">
 
+					<h3>Single images</h3>
+					<div class="image-row">
+						<a class="example-image-link" href="images/demopage/image-1.jpg" data-lightbox="example-1"><img class="example-image" src="images/demopage/thumb-1.jpg" alt="thumb-1" width="150" height="150"/></a>
+						<a class="example-image-link" href="images/demopage/image-2.jpg" data-lightbox="example-2" title="Optional caption."><img class="example-image" src="images/demopage/thumb-2.jpg" alt="thumb-1" width="150" height="150"/></a>
+					</div>
+
+					<h3 style="clear: both;">An image set</h3>
+
+					<div class="image-row">
+						<div class="image-set">
+							<a class="example-image-link" href="images/demopage/image-3.jpg" data-lightbox="example-set" title="Click on the right side of the image to move forward."><img class="example-image" src="images/demopage/thumb-3.jpg" alt="Plants: image 1 0f 4 thumb" width="150" height="150"/></a>
+							<a class="example-image-link" href="images/demopage/image-4.jpg" data-lightbox="example-set" title="Or press the right arrow on your keyboard."><img class="example-image" src="images/demopage/thumb-4.jpg" alt="Plants: image 2 0f 4 thumb" width="150" height="150"/></a>
+							<a class="example-image-link" href="images/demopage/image-5.jpg" data-lightbox="example-set" title="The script preloads the next image in the set as you're viewing."><img class="example-image" src="images/demopage/thumb-5.jpg" alt="Plants: image 3 0f 4 thumb" width="150" height="150"/></a>
+							<a class="example-image-link" href="images/demopage/image-6.jpg" data-lightbox="example-set" title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="images/demopage/thumb-6.jpg" alt="Plants: image 4 0f 4 thumb" width="150" height="150"/></a>
 						</div>
 					</div>
-					<div class="row features">
-						<section class="4u feature">
-							<div class="image-wrapper first">
-								<a href="http://ineedchemicalx.deviantart.com/art/Time-goes-by-too-fast-335982438" class="image full"><img src="images/pic03.jpg" alt="" /></a>
-							</div>
-							<header>
-								<h3>Karmela Arocena</h3>
-								<h4>Backend &amp; HUD Development and Marketing Lead</h4>
-							</header>
-							<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur 
-							vel sem sit dolor neque semper magna lorem ipsum.</p>
-						</section>
-						<section class="4u feature">
-							<div class="image-wrapper">
-								<a href="http://ineedchemicalx.deviantart.com/art/Kingdom-of-the-Wind-348268044" class="image full"><img src="images/pic04.jpg" alt="" /></a>
-							</div>
-							<header>
-								<h3>Yeremia Djaja</h3>
-								<h4>Sound &amp; Audio Design and Particle Effects Development</h4>
-							</header>
-							<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur 
-							vel sem sit dolor neque semper magna lorem ipsum.</p>
-						</section>
-						<section class="4u feature">
-							<div class="image-wrapper">
-								<a href="http://ineedchemicalx.deviantart.com/art/Elysium-355393900" class="image full"><img src="images/pic05.jpg" alt="" /></a>
-							</div>
-							<header>
-								<h3>Elaine Hung</h3>
-								<h4>3D Environment Design &amp; Modeller and 2D Concept Art</h4>
-							</header>
-							<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur 
-							vel sem sit dolor neque semper magna lorem ipsum.</p>
-						</section>
-					</div>
-					<div class="row features">
-						<section class="4u feature">
-							<div class="image-wrapper first">
-								<a href="http://ineedchemicalx.deviantart.com/art/Time-goes-by-too-fast-335982438" class="image full"><img src="images/pic03.jpg" alt="" /></a>
-							</div>
-							<header>
-								<h3>Colin Smith</h3>
-								<h4>3D Character Modeller and Sound Technician</h4>
-							</header>
-							<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur 
-							vel sem sit dolor neque semper magna lorem ipsum.</p>
-						</section>
-						<section class="4u feature">
-							<div class="image-wrapper">
-								<a href="http://ineedchemicalx.deviantart.com/art/Kingdom-of-the-Wind-348268044" class="image full"><img src="images/pic04.jpg" alt="" /></a>
-							</div>
-							<header>
-								<h3>Natalie Snell</h3>
-								<h4>Animation Lead &amp; 2D Concept Art</h4>
-							</header>
-							<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur 
-							vel sem sit dolor neque semper magna lorem ipsum.</p>
-						</section>
-						<section class="4u feature">
-							<header>
-								<h3>Special Thanks To:</h3>
-							</header>
-							<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur 
-							vel sem sit dolor neque semper magna lorem ipsum.</p>
-						</section>
-					</div>
+				</section>
 					
-				</div>
-			</div>
 
+					
+			</div>
+				
 		<!-- Footer Wrapper -->
 					<div id="footer-wrapper">
 						<!-- Copyright -->
