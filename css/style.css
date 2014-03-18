@@ -798,3 +798,28 @@
 		border-bottom: none !important;
 		text-decoration: none !important;
 	}
+
+/*********************************************************************************/
+/* Modal                                                                    	 */
+/*********************************************************************************/
+
+	#lean_overlay {
+		position: relative;
+		background: url('../images/city_blurred.jpg') center center;
+		background-size: cover;
+		color: #fff;
+		text-align: center;
+
+	    position: fixed;
+	    z-index:99999;
+	    top: 0px;
+	    left: 0px;
+	    height:100%;
+	    width:100%;
+	    /*background: #000;*/
+	    display: none;
+	}
+
+	#lean_overlay_inner {
+		margin-top: 15%;
+	}

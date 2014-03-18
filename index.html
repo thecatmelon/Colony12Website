@@ -18,6 +18,7 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/jquery.leanModal.min.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -59,7 +60,7 @@
 								Colony 12 is an interactive machinima that uses the power of the Oculus Rift to offer a fully immersive stereoscopic storytelling experience. Strap on the headset and prepare to be taken on a journey through the destroyed alien world as you learn more about the crash that led you there and the dangers of your new surroundings.
 							</p>
 						</header>
-							<a class="trailer" href="#"><p class="button"><i class="fa fa-play-circle-o fa-lg"></i> Watch the Trailer</p></a>
+							<a id="trigger_modal" class="trailer" href="#"><p class="button"><i class="fa fa-play-circle-o fa-lg"></i> Watch the Trailer</p></a>
 					</section>
 
 			</div>
@@ -159,6 +160,22 @@
 		
 					</div>
 		
-		
+		<!-- Modal -->
+
+		<div id="lean_overlay">
+			<div id="lean_overlay_inner">
+				<iframe width="560" height="315" src="//www.youtube.com/embed/4gJjKy98x7M" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+
 	</body>
+
+	<!-- Launch Modal Junk -->
+
+	<script>
+		$(function(){
+			$("#trigger_modal").leanModal({ top : 200, overlay : 1.0, closeButton: ".modal_close" });
+		});
+	</script>
+
 </html>
