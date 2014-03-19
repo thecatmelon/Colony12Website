@@ -487,6 +487,21 @@
 		color: #fafafa;
 	}
 
+	.no-underline a
+	{
+		border-bottom: none !important;
+		text-decoration: none !important;
+	}
+
+/*********************************************************************************/
+/* Gallery Style Fix	                                                         */
+/*********************************************************************************/	
+
+	.lb-data .lb-close, .lb-nav a {
+		border-bottom: none !important;
+		text-decoration: none !important;
+	}
+
 /*********************************************************************************/
 /* Section/Article Types                                                         */
 /*********************************************************************************/
