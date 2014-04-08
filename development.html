@@ -71,35 +71,71 @@
 
 									<section>
 
+									<h2>Introduction</h2>
+
+									<p>
+										Colony 12 is an interactive machinima experience that uses the power of the Oculus Rift with the story telling ability of a live-rendered experience of a game engine. Using the full immersion of virtual reality, stories can take on a new level of depth and customization that cannot be achieved by movies and live shows. Taking on a project of this scale using a new technology introduced an added layer of challenges over a standard cut-scene animation workflow as a focus on passive interactivity was a core philosophy in development.
+									</p>
+
+									<p>
+										Unlike what you might expect from a movie that uses a pre-determined set of sequences, a virtual reality experience must take into consideration all possible experience cases of a user from start to finish. This means that scenes must be 'staged' in a realistic manner so as to generate strong atmospheric storytelling (a process that, depending on where the user decides to direct their attention, may or may not be seen at all).
+									</p>
+
 									<h2>Pre-production</h2>
 
-									<p>Ut sed tortor luctus, gravida nibh eget, volutpat odio. Proin rhoncus, sapien 
-									mollis luctus hendrerit, orci dui viverra metus, et cursus nulla mi sed elit. Vestibulum 
-									condimentum, mauris a mattis vestibulum, urna mauris cursus lorem, eu fringilla lacus 
-									ante non est. Nullam vitae feugiat libero, eu consequat sem. Proin tincidunt neque 
-									eros. Duis faucibus blandit ligula, mollis commodo risus sodales at. Sed rutrum et 
-									turpis vel blandit. Nullam ornare congue massa, at commodo nunc venenatis varius. 
-									Praesent mollis nisi at vestibulum aliquet. Sed sagittis congue urna ac consectetur.</p>
+									<p>
+										The process began with the idea. Taking into consideration how videos and movies function, a passive experience was decided to be the best plan of attack. This is due to several reasons:
+
+										<ul>
+											<li>Mouse + keyboard cannot be seen while the unit is on the user's head</li>
+											<li>Storytelling is often treated separately from gameplay (i.e. game cutscenes)</li>
+											<li>Several noticeable drawbacks involving latency and resolution, resulting in disorientation if control is given to users</li>
+										</ul>
+									
+										The experience takes place on an alien planet on which you, the player have crash landed. As a plot device, your legs have been injured resulting in your lack of mobility and reliance on your guide; Artimus Quinn. Script writing at this point took over, as back stories were fleshed out and dialogue was written. The ability to end the experience with a custom-generated ending is a feature not available in current passive media, although we wanted to ensure that players never are drawn out of the experience and directly asked to make decisions. This posed a challenge, forcing our script to take into consideration several event and plot nodes that would all contribute to the playing of two possible endings. This decision would be generated based on line-of-sight triggers that would then average throughout the experience and toggle the ending that rewards or denies a user the ability to get an alternate ending depending on what subtleties they remarked along the way.
+
+										This node-based plot system, a common practice in many multi-modal game scripts was the core to our ability to maintain a strong core storyline while allowing for a fundamentally flexible and scalable storyline and plot progression.
+
+										Once the script was wrapped up, focus shifted towards concept artwork and character creation. All character, objects, environments, buildings, accouterments and additional factors such as lighting and fog that would ultimately impact the end product were sketched out and approved before proceeding with production. 
+
+										At this point work could finally be decentralized for production.
+
+									</p>
+
 									</section>
 
 									<section>
 									<h2>Production</h2>
 
-									<p>Mauris eleifend eleifend felis aliquet ornare. Vestibulum porta velit at elementum
-									gravida nibh eget, volutpat odio. Proin rhoncus, sapien 
-									mollis luctus hendrerit, orci dui viverra metus, et cursus nulla mi sed elit. Vestibulum 
-									condimentum, mauris a mattis vestibulum, urna mauris cursus lorem, eu fringilla lacus 
-									ante non est. Nullam vitae feugiat libero, eu consequat sem. Proin tincidunt neque 
-									eros. Duis faucibus blandit ligula, mollis commodo risus sodales at. Sed rutrum et 
-									turpis vel blandit. Nullam ornare congue massa, at commodo nunc venenatis varius. 
-									Praesent mollis nisi at vestibulum aliquet. Sed sagittis congue urna ac consectetur.</p>
+									<p>
+										Production was broken down into:
+
+											<ul>
+												<li>Dialogue recording</li>
+												<li>Sound effects</li>
+												<li>Particle effects</li>
+												<li>Game mechanics</li>
+												<li>Character creation</li>
+												<li>Static asset and environment creation</li>
+												<li>Character and asset animation</li>
+											</ul>
+
+										Production was handled after having chosen the Unreal Development Kit as our game engine. Due to the inherent modular and decentralized nature of how UDK handles development workflows, most sections of production could be worked on concurrently. Dialogue recording was handled in a professional soundbooth setup that made sure to isolate clean vocals for the experience. Game modeling and texturing was handled in several software packages including scultping such as Autodesk Mudbox, modeling software packages such as Autodesk Maya and 3DS Max as well as animation handled directly with custom biped and CAT rigs in 3DS Max.
+
+										As UDK supports FBX workflows, all packages were exported as FBX files and brought into UDK for staging, material application and ultimately scene building with Unreal Matinee. The build of the game essentially treats the experience as a large cutscene, allowing for the experience to be precisely scripted during some parts and entirely procedurally generated during others. This workflow emulates the type of workflow and sequencing as one might expect from any non-linear video editor, but adds in the almost limitless ability of a game engine.
+
+									</p>
+
 									</section>
 
 									<section>
 									<h2>Post-production</h2>
+										Developer and alpha user testing played a key role in our decision making process. Some factors are unavoidable to develop around as they focus on core faults to the head mounted display. The Oculus Rift has known issues with head tracking, visual latency and extremely low resolution.
 
-									<p>Vestibulum pellentesque posuere lorem non aliquam. Mauris eleifend eleifend 
-									felis aliquet ornare. Vestibulum porta velit at elementum elementum.</p>
+										Motion sickness became a very real reality with the device after approximately 10 minutes of use, otherwise resulting in motion sickness and disorientation. Sudden head movements at both the beginning and at the end of the experience allows users to reduce the effects of the disorientation. The experience causes an extremely fast paced finale, forcing users to look around quickly in order to grasp their surroundings, thus reducing the extent of their nausea.
+									<p>
+
+									</p>
 									</section>
 								</article>
 

@@ -108,6 +108,14 @@
 		margin-bottom: 1.5em;
 	}
 
+	ul li {
+		list-style-type: disc;
+
+		margin-left: 50px;
+	}
+
+	#content h2 { margin-bottom: 0.1em; }
+
 	br.clear
 	{
 		clear: both;
